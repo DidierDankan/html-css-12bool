@@ -11,6 +11,85 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    
+    <h2>First exemple just col</h2>
+
+    <div class="container">
+        <div class="col-7">
+            <div class="grill-box">
+                col 7
+            </div>
+        </div> 
+        <div class="col-5">
+            <div class="grill-box">
+                col 5
+            </div>
+        </div>
+        <!-- col 3-col 6-col 3 -->
+        <div class="col-3"><div class="grill-box">col 3</div></div>
+        <div class="col-6"><div class="grill-box">col 6</div></div>
+        <div class="col-3"><div class="grill-box">col 3</div></div>
+        <!-- col 3 * 4 -->
+        <div class="col-3"><div class="grill-box">col 3</div></div>
+        <div class="col-3"><div class="grill-box">col 3</div></div>
+        <div class="col-3"><div class="grill-box">col 3</div></div>
+        <div class="col-3"><div class="grill-box">col 3</div></div>
+        <!-- 12 * 1 -->
+        <div class="col-1"><div class="grill-box">col 1</div></div>
+        <div class="col-1"><div class="grill-box">col 1</div></div>
+        <div class="col-1"><div class="grill-box">col 1</div></div>
+        <div class="col-1"><div class="grill-box">col 1</div></div>
+        <div class="col-1"><div class="grill-box">col 1</div></div>
+        <div class="col-1"><div class="grill-box">col 1</div></div>
+        <div class="col-1"><div class="grill-box">col 1</div></div>
+        <div class="col-1"><div class="grill-box">col 1</div></div>
+        <div class="col-1"><div class="grill-box">col 1</div></div>
+        <div class="col-1"><div class="grill-box">col 1</div></div>
+        <div class="col-1"><div class="grill-box">col 1</div></div>
+        <div class="col-1"><div class="grill-box">col 1</div></div>
+        <!-- col 4 + col 6 + col 2 -->
+        <div class="col-4"><div class="grill-box">col 4</div></div>
+        <div class="col-6"><div class="grill-box">col 6</div></div>
+        <div class="col-2"><div class="grill-box">col 2</div></div>
+    </div>
+
+    <h2>Col Nesting</h2>
+
+    <div class="container">
+        <!-- col 6 inside 3 * cols 4 -->
+      <div class="col-6 padding-0">
+          <div class="col-4"><div class="grill-box">col 4</div></div>
+          <div class="col-4"><div class="grill-box">col 4</div></div>
+          <div class="col-4"><div class="grill-box">col 4</div></div>
+      </div>
+      <!-- col 6 inside 4 * cols 3 -->
+      <div class="col-6 padding-0">
+          <div class="col-3"><div class="grill-box">col 3</div></div>
+          <div class="col-3"><div class="grill-box">col 3</div></div>
+          <div class="col-3"><div class="grill-box">col 3</div></div>
+          <div class="col-3"><div class="grill-box">col 3</div></div>
+      </div> 
+      <!-- col 8 inside 1* col 6 + 3* col 2 -->
+      <div class="col-8 padding-0">
+          <div class="col-2"><div class="grill-box">col 2</div></div>
+          <div class="col-6"><div class="grill-box">col 6</div></div>
+          <div class="col-2"><div class="grill-box">col 2</div></div>
+          <div class="col-2"><div class="grill-box">col 2</div></div>
+      </div>
+      <!-- col 4 inside 6* col 2 -->
+      <div class="col-4 padding-0">
+          <div class="col-7"><div class="grill-box">col 7</div></div>
+          <div class="col-5"><div class="grill-box">col 5</div></div>    
+      </div>
+    </div>
+
+    <h2>col with offset</h2>
+
+    <div class="container">
+      <div class="col-3"><div class="grill-box">col 3</div></div>
+      <div class="col-4 offset-5"><div class="grill-box"> col 4 with offset 5</div></div>
+      <div class="col-7"><div class="grill-box">col 7</div></div>
+      <div class="col-3 offset-2"><div class="grill-box">col 3 offset 2</div></div>
+      <div class="col-8 offset-2"><div class="grill-box">col 8 offset 2</div></div>
+    </div>
 </body>
 </html>
