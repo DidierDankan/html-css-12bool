@@ -6,7 +6,7 @@ body {
 
 /* GENERALS */
 /* header */
-.container .col-12{
+.container .col-12 .header-img{
     position: relative;
     height: 25vh;
     margin-top: 1rem;
@@ -18,20 +18,22 @@ body {
     box-shadow: 2px 2px 1px #80808073;
 }
 
-.col-12 img {
+/* logo conditions */
+.col-12 .header-img img {
     position: absolute;
     left: 0;
     bottom: 2.4rem;
     height: 1.4rem;
 }
 
-.container .col-5 li {
+/* social media conditions */
+.container .col-5 .media-logos li {
     display: inline-block;
     list-style: none;
     padding-left: .8rem;
 }
 
-.container .col-5 {
+.container .col-5 .media-logos {
     text-align: right;
 }
 
@@ -39,10 +41,84 @@ body {
     color: #0000009c;
 }
 
-/* main content */
-
-.container .col-4 img {
+/* MAIN CONTENT */
+/* img conditions */
+.container .col-5 .img-content img {
     height: 40vh;
     margin-top: .8rem;
     border-radius: .2rem;
+    box-shadow: 2px 2px 1px #80808073;
+}
+
+/* text conditions container */
+.container .col-7 {
+    position: relative;
+}
+
+.container .col-8 {
+    position: absolute;
+    left: 0;
+    top: 1rem;
+}
+
+.container .col-7 .col-8 .content {
+    margin-top: .8rem;
+    text-align: left;    
+}
+
+.col-7 .col-8 .content h2 {
+    color: #252220de;
+}
+
+.col-7 .col-8 .content span {
+    display: block;
+    font-size: .7rem;
+    font-weight: 800;
+    color: rgb(74 72 72 / 70%);
+}
+
+.col-7 .col-8 .content p {
+    margin-top: .8rem;
+    line-height: 1.4rem;
+}
+
+.col-7 .col-8 .content #date-log {
+    color: rgb(74 72 72 / 70%);
+    font-size: .6rem;
+}
+
+.col-7 .col-8 .content a {
+    padding-right: 1rem;
+    color: rgb(74 72 72 / 70%);
+}
+
+/* footer */
+footer .col-12 h2 {
+    margin-top: .8rem;
+    margin-left: 3rem;
+}
+
+.col-12 .col-4 {
+    padding: 1rem;
+}
+
+.col-12 .col-4 img {
+    width: 100%;
+    height: 30vh;
+    transition: transform 1s,
+                box-shadow 1s;
+}
+
+.col-12 .col-4 img:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 1px #80808073;
+}
+
+.col-12 .col-4 h3 {
+    margin-top: .8rem;
+}
+
+.col-12 .col-4 p {
+    margin-top: .8rem;
+    font-size: .8rem;
 }
